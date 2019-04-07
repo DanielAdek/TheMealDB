@@ -40,16 +40,12 @@ class MealController {
         return { idMeal, count };
       });
       // GET MINIMUM INGREDIENTS
-      const mealsWithMinIngredients = allIngredients.filter(
+      const idOfMealsWithMinIngredients = allIngredients.filter(
         meal => {
           return meal.count === Math.min(...arrayOfNumbers)
          }
       );
-      // RETURN IDS OF MINIMUM INGREDIENTS
-      const idOfMealsWithMinIngredients = mealsWithMinIngredients.map(
-        meal => meal.idMeal
-      );
-      return res.status(200).jsend.success({ idOfMealsWithMinIngredients, mealsWithMinIngredients});
+      return res.status(200).jsend.success({ idOfMealsWithMinIngredients });
     } catch (error) {
       console.log(error);
     }
