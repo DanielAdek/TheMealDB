@@ -1,4 +1,4 @@
-# TheMealDB
+# ![TheMealDB](./tmdb.png)
 ### This application is created to fetch meals from [TheMealDB API](https://www.themealdb.com/api/json/v1/1/randomselection.php) and return the IDs of the meals that have the least ingredients to prepare.
 
 #### The below is how to run the application without docker.
@@ -48,3 +48,4 @@ Before running the app with docker, ensure you have done the following
 * Run `docker run -p 8080:8080 -d [USERNAME]/themealdb`
 * Paste http://localhost:8080/api/v1/meals in your browser.
 
+Then you should see a response like the above json object.
