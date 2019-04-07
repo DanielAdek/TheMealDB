@@ -6,8 +6,8 @@
 ##### Prequsites:
 Before running the app locally, ensure you have the following applications installed on your system.
 a. [Node Js](https://nodejs.org)
-b. [Git](https://git.com)
-c. A browser of your choice or an application to test API:  [Postman](https://postman.com), [Insomia](https://insomia.com), etc.
+b. [Git](https://git-scm.com)
+c. A browser of your choice or an application to test API:  [Postman](https://www.getpostman.com), [Insomnia](https://insomnia.rest), etc.
 
 Test without docker
 1. On your terminal, run the following commands.
